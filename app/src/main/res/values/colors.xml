@@ -5,6 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="splashScreenBackground">#FF28338D</color>
     <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
     <color name="loginBackground">#FF790D53</color>
     <color name="hintColor">#FF777777</color>
     <color name="buttonColorLogin">#524A4A4A</color>

@@ -3,35 +3,29 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#000"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
-    <LinearLayout
+    <FrameLayout
+        android:id="@+id/fragmentHolder"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_menu"/>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:gravity="center"
-        android:orientation="vertical">
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:menu="@menu/bottom_nav_menu"/>
 
-        <ImageView
-            android:id="@+id/logoSplashScreen"
-            android:layout_width="80dp"
-            android:src="@mipmap/ic_launcher_round"
-            android:layout_height="80dp" />
 
-        <TextView
-            android:id="@+id/textSplashScreen"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:layout_marginTop="8dp"
-            android:textColor="#ffff"
-            android:textAlignment="center"
-            android:text="EmpowerU"/>
-
-    </LinearLayout>
 
 
 

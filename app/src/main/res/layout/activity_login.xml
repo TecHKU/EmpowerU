@@ -31,6 +31,7 @@
             style="@style/loginEditText" />
         <EditText
             style="@style/loginEditText"
+            android:layout_marginTop="30dp"
             android:hint="Enter your password"
             android:drawableStart="@drawable/ic_lock_outline_24dp" />
 

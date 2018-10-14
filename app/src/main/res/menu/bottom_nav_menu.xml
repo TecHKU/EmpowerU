@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/courses"
+        android:icon="@drawable/ic_library_books_24dp"
+        android:title="Courses"/>
+    <item
+        android:id="@+id/schedule"
+        android:icon="@drawable/ic_schedule_24dp"
+        android:title="Schedule"/>
+    <item
+        android:id="@+id/news"
+        android:icon="@drawable/ic_news"
+        android:title="News"/>
+    <item
+        android:id="@+id/forums"
+        android:icon="@drawable/ic_forums"
+        android:title="Forums"/>
+
+
+</menu>
