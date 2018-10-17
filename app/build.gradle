@@ -38,4 +38,7 @@ dependencies {
 
     //facebook login sdk
     implementation 'com.facebook.android:facebook-login:[4,5)'
+
+    //for async tasks
+    implementation "org.jetbrains.anko:anko-commons:0.10.4"
 }

@@ -28,4 +28,51 @@
         <item name="android:drawableTint">@color/white</item>
     </style>
 
+    <style
+        name="LoginEditText"
+        parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">Helvetica Neue</item>
+        <item name="android:textColor">#FF777777</item>
+        <item name="android:textSize">17sp</item>
+        <item name = "android:background">#381E1E1E</item>
+        <item name = "android:textColorHint">#FF777777</item>
+    </style>
+
+    <style
+        name="loginEditTextHeader">
+        <item name="android:fontFamily">Helvetica Neue</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style
+        name="loginButtonText">
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">14sp</item>
+        <item name = "android:background">#FF6A2050</item>
+    </style>
+
+    <style
+        name="loginFacebook">
+        <item name="android:fontFamily">Helvetica Neue</item>
+        <item name="android:textColor">#FF3C5193</item>
+        <item name="android:textSize">17sp</item>
+        <item name = "android:background">#FFFFFF</item>
+    </style>
+
+    <style
+        name="profileName">
+        <item name="android:fontFamily">Merriweather</item>
+        <item name="android:textColor">#DE000000</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">italic|bold</item>
+    </style>
+
+    <style
+        name="profileUID">
+        <item name="android:fontFamily">Libre Franklin</item>
+        <item name="android:textColor">#DE000000</item>
+        <item name="android:textSize">13sp</item>
+    </style>
 </resources>
